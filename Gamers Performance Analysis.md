@@ -12,7 +12,7 @@ I downloaded the data. After doing some initial scan, I found out that there are
 
 ##### Step 2: EDA 
 
-In order to verify the dataset, I created a scattere plot of league level and player APM. I choose APM, because it is common known there is a strong relationship between APM and gamers' league levels. If the dataset is valid, players' league levels must be positively correlated with players' APMs. Here is the figure:
+In order to verify the dataset, I created a scatter plot of league level and player APM. I choose APM, because it is common known there is a strong relationship between APM and gamers' league levels. If the dataset is valid, players' league levels must be positively correlated with players' APMs. Here is the figure:
 
 ![APM vs League](image/APM_League.png)
 
