@@ -1,5 +1,6 @@
 # Gamer Performance Analysis
 
+## Work Flow 
 
 ### Background
 
@@ -27,6 +28,21 @@ I applied the trained Lasso model to the untouched testing data and compared tra
 
 After doing the analysis, I can conclude that using the gamers' behavioural data to predict the gamers' performance is effective and reasonable. 
 
-## Detaild report can be viewed here:
-[gamer performance analysis report](https://github.com/xiaosophiameng/gamer_performance_analysis/blob/master/Gamers%20Performance%20Analysis.md)
+## Detaild report can be viewed here
+[Gamer Performance Analysis Report](https://github.com/xiaosophiameng/gamer_performance_analysis/blob/master/Gamers%20Performance%20Analysis.md)
+
+## Software dependencies
+
+- numpy
+
+- pandas
+
+- numpy.linalg
+
+- matplotlib.pyplot
+
+- sklearn.linear_model
+
+- sklearn.metrics
+
 
