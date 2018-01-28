@@ -17,7 +17,7 @@ In order to verify the dataset, I created a scatter plot of league level and pla
 
 #### Step 3: Train Data
 
-I seperated the data into two groups, training data and testing data. I did a cross-validation (k-fold 10) on the training data in order to get the best hyperparameter $\alpha$ for Lasso model. Validation score reaches the peak when $\alpha$ equals to $0.00446684$. Hence, $0.00446684$ was chosen for $alpha$. Then, I trained Lasso model with the $\alpha$ ($0.00446684$) on entire the training data and 12 features are selected.
+I seperated the data into two groups, training data and testing data. I did a cross-validation (k-fold 10) on the training data in order to get the best hyperparameter $\alpha$ for Lasso model. Validation score reaches the peak when $\alpha$ equals to 0.00446684. Hence, 0.00446684 was chosen for $alpha$. Then, I trained Lasso model with the $\alpha$ (0.00446684) on entire the training data and 12 features are selected.
 
 #### Step 4: Test Data and Result
 
@@ -27,5 +27,6 @@ I applied the trained Lasso model to the untouched testing data and compared tra
 
 After doing the analysis, I can conclude that using the gamers' behavioural data to predict the gamers' performance is effective and reasonable. 
 
-
+## Detaild report can be viewed here:
+[gamer performance analysis report](https://github.com/xiaosophiameng/gamer_performance_analysis/blob/master/Gamers%20Performance%20Analysis.md)
 

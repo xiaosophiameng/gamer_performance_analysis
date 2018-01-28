@@ -20,11 +20,11 @@ As shown in figure above, player's APMs is obviously positively correlated with 
 
 #### Step 3: Train Data
 
-I seperated the data into two groups, training data and testing data. I did a cross-validation (k-fold 10) on the training data in order to get the best hyperparameter $\alpha$ for Lasso model. As shown in figure below, validation score reaches the peak when $\alpha$ equals to $0.00446684$. Hence, I chose $0.00446684$ for $alpha$ as the hyperparameter in Lasso model.
+I seperated the data into two groups, training data and testing data. I did a cross-validation (k-fold 10) on the training data in order to get the best hyperparameter $\alpha$ for Lasso model. As shown in figure below, validation score reaches the peak when $\alpha$ equals to 0.00446684. Hence, I chose 0.00446684 for $alpha$ as the hyperparameter in Lasso model.
 
 ![validation_vs_alpha](image/validation_vs_alpha.png)
 
-Then, I trained Lasso model with the $\alpha$ ($0.00446684$) on entire the training data and outputed selected features.
+Then, I trained Lasso model with the $\alpha$ (0.00446684) on entire the training data and outputed selected features.
 
 ![APM vs League](image/feature_selection.png)
 
